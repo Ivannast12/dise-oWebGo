@@ -1,0 +1,34 @@
+#caja5{
+    text-align:left;
+    background-color: gray;
+} 
+
+#caja1{
+    height: 80px;
+    text-align: center;
+    background-color: rgb(153, 26, 26);
+    font-family: Courier New;
+}
+
+#caja2{
+
+    width: 500px;
+    height: 200px;
+    float:right;
+    padding: 20px;  
+}
+#caja3{
+    clear:none;
+    text-align:justify;
+}
+#caja4{
+    background-color: yellow;
+    width: 200px;
+    float:left;
+}
+
+#caja6{
+    background-color: rgb(15, 100, 58);
+    width: 350px;
+    float:right;
+}
