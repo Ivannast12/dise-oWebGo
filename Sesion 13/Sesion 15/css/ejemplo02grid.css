@@ -1,0 +1,43 @@
+body{
+    color:white;
+    font-family: Arial;
+    margin:0px;
+}
+.grid{
+    display: grid;
+    grid-template-areas: "head head head" 
+    "menu main aside"
+    "foot foot foot";
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 200px 1fr 100px;
+    min-height: 100vh;
+ }
+
+
+.a{
+    grid-area:head;
+    background-color: rgb(152, 80, 180);
+}
+
+.b{
+    grid-area:menu;
+    background-color: rgb(118, 144, 199);
+}
+    
+.c{
+    grid-area:main;
+    background-color: rgb(20, 9, 17);
+}
+
+.d{
+    grid-area:aside;
+    background-color: rgb(94, 18, 62);
+}
+.e{
+    grid-area:foot;
+    background-color: rgb(129, 43, 111);
+}
+
+.a,.b,.c,.d,.e{
+     border: 0px solid black;
+}
