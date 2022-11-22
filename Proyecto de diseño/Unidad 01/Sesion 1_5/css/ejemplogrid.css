@@ -1,0 +1,56 @@
+
+
+/*
+.grid{
+    display: grid;
+    grid-template-columns: 50px 300px;
+    grid-template-rows: 200px 75px;
+}*/
+
+/*.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 2fr;
+
+    .a,.b,.c,.d{
+    border: 1px solid black;
+}
+}*/
+
+/*1fr o 2fr=es para que cubra lo que queda
+ o sobrantes va a la pantalla*/
+
+ .grid{
+    display: grid;
+    grid-template-areas: "head head" 
+    "menu main"
+    "foot foot";
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 200px 1fr 100px;
+    min-height: 100vh;
+ }
+
+
+.a{
+    grid-area:head;
+    background-color: blue;
+}
+
+.b{
+    grid-area:menu;
+    background-color: rgb(248, 17, 17);
+}
+    
+.c{
+    grid-area:main;
+    background-color: rgb(96, 247, 50);
+}
+
+.d{
+    grid-area:foot;
+    background-color: rgb(236, 113, 12);
+}
+
+.a,.b,.c,.d{
+     border: 1px solid black;
+}
