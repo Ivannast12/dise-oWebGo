@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/agenda.css">
+    <title>Agenda</title>
+</head>
+<body onload="actualizarDatos()">
+    <div id="contenedor">
+<header>
+    <h3>Mi agenda de Productos</h3>
+<hr>
+</header>
+<img id="calendario" src="img/calendario (1).png" alt="calendario">   
+<form >
+ <span>Nombre Producto:</span>
+<input type="text"  placeholder="Nombre" id="nombre"><br><br>
+<span>Precio Producto: </span>
+<input type="text"  placeholder="Precio"  id="movil"><br><br>
+<span>Cantidad Producto: </span>
+<input type="text"  placeholder="Cantidad"  id="cantidad"><br><br>
+<span>Total Producto: </span>
+<input type="text"  placeholder="Total"  id="total"><br><br>
+</form>
+
+<hr />
+<div>
+<button type="button" onclick="guardarDato()" > Guardar</button>
+<button type="button" onclick="recuperarDato()">Recuperar</button>
+<button type="button" onclick="eliminarDato()">Eliminar</button>
+<button type="button" onclick="eliminarTodo()">Eliminar Todos</button>
+</div>
+<hr>
+<span class="titu" >Nombre </span> <span class="titu">Datos del Producto </span><br>
+<ul id="contactos"></ul>
+<br>
+ </div>
+
+ <script type="text/javascript" src="js/agenda.js" ></script>
+</body>
+</html>

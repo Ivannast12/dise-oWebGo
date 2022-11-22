@@ -1,0 +1,39 @@
+body{
+    color: rgb(255, 255, 255);
+}
+header{
+    background-color: blueviolet;
+    height: 150px;
+}
+nav{
+    background-color: rgb(79, 79, 107);
+    height: 50px;
+}
+section{
+    background-color: rgb(27, 80, 80);
+    height: 350px;
+}
+aside{
+    background-color: brown;
+    height: 50px;
+}
+footer{
+    background-color:rgb(163, 110, 44) ;
+    height: 100px;
+}
+
+@media(min-width:576px){
+nav{
+    height: 70px;
+}
+aside,section{
+ height: 450px;
+}
+}
+
+@media(min-width:768px){
+
+    nav,aside,section{
+     height: 520px;
+    }
+}

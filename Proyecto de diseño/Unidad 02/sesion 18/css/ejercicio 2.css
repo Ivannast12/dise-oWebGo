@@ -1,0 +1,18 @@
+#cb1{
+    padding:7px ;
+    color: blueviolet;
+    background-color: rgb(241, 241, 241);
+    width: 240px;
+    
+    
+}
+.bloque{
+    padding:7px ;
+    background-color: rgb(209, 195, 195);
+    width: 220px;
+    height: 100px;
+    
+}
+body{
+    font-family: 'Courier New';
+}

@@ -1,0 +1,55 @@
+body{
+    background:  url(https://img.freepik.com/vector-gratis/agenda-agradables-notas_23-2147561218.jpg?w=2000) center no-repeat;
+    font-size: large;
+}
+ #calendario{
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    margin-left: 60px;
+}
+
+#contenedor{
+    width: 800px;
+    margin: auto;
+    background-color: rgba(160, 103, 146, 0.26);
+    padding-left: 10px;
+    font-family:  calibri;
+    margin-top: 100px;
+    
+    
+}
+span{
+    width: 300px;
+    display: block;
+    float: left;
+    padding-left: 4px;
+    
+}
+.nom{
+    background-color: rgba(169, 169, 169, 0.452);
+}
+.titu{
+    background-color: rgba(10, 46, 33, 0.473);
+    font-weight:bold;
+    padding-left: 10%;
+}
+li{
+    list-style: none;
+    margin-top: 5px;
+}
+ul{
+    margin: 0px;
+    padding-left: 10%;
+}
+
+button{
+    padding: 5px 5px;
+    border-radius: 2px 9px ;
+    background-color: rgba(0, 0, 0, 0.452);
+    border-color: blanchedalmond;
+    color: rgba(0, 0, 0, 0.918);
+    font-weight:bold;
+    margin-left: 85px;
+}
+
