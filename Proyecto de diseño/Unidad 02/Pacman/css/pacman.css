@@ -1,0 +1,89 @@
+header,nav,section,aside,footer{
+    color:rgb(255, 255, 255);
+    font-family: Arial;
+    
+ }
+
+ body{
+    margin: 2px;
+    background-color: black;
+    
+ }
+
+   section{
+   background-image: url(https://cdn.wallpapersafari.com/32/51/TNtXf0.png);
+   width: 560px;
+   float: left;
+   height: 620px;
+   }
+
+   nav{
+    margin-left: 50px;
+    background-color: rgb(8, 129, 119);
+    width:720px;
+    float: left;
+    height: 620px;
+    }
+
+   div{
+    background: #8e44ad;
+    color:white;
+    padding: .2rem .2rem .1rem .2rem;
+    position: absolute;
+    border-radius: 1rem 1rem 0 0;
+    animation-name: animar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-left: 20px;    
+    margin-top: 20px; 
+}
+h1{
+    text-align: center;
+    font-family:'Arial Narrow';
+    background-color: rgb(46, 44, 10);
+    padding: 30px;
+}
+
+p{
+    text-align: justify;
+    padding: 30px;
+    font-family: 'Lucida Sans';
+}
+
+img{
+    position: relative;
+    top:7px;
+    left:35% ;
+}
+@keyframes animar{
+   
+    30%{
+        left: 100px;
+    }  
+    60%{
+        left: 220px;
+    }
+
+    80%{
+        left: 100px;
+    }
+
+    90%{
+        left: 10px;
+    }
+    100%{
+        
+        top: 80px;
+        left: 200px;
+
+    }
+
+}
+   
+  
+
+
+
+   
+  
+   

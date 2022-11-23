@@ -1,0 +1,49 @@
+body{
+    height: 100%;
+    
+}
+#cover {
+    background: black url(https://www.zonadamas.mx/wp-content/uploads/2020/04/HOb-aceites-para-masajes-2.jpg) center no-repeat;
+    background-size: 100%;
+    color: rgb(0, 0, 0);
+    height: 100%;
+    text-align: center;
+}
+
+#cover-texto{
+    width: 100%;
+}
+
+nav{
+    background-color: aquamarine;
+}
+
+#carouselExampleIndicators{
+    width: 70%;
+    position: relative;
+    float:right;
+}
+
+h2{
+    position: relative;
+    clear: right;
+    color: brown;
+}
+
+.display-3{
+text-align: center;
+}
+
+
+
+nav{
+    background-color: rgba(38, 134, 134, 0.37);
+}
+
+footer{
+    background-color: rgb(47, 82, 19);
+}
+
+#container{
+    background-color: blueviolet;
+}

@@ -1,0 +1,52 @@
+header,nav,section,aside,footer{
+    color:rgb(255, 255, 255);
+    font-family: Arial;
+    
+ }
+
+ body{
+    margin: 0px;
+ }
+
+header{
+    background-color: rgba(150, 80, 138, 0.829);
+    height: 200px;
+   }
+   
+   nav{
+   background-color: rgb(118, 144, 199);
+   width: 15%;
+   }
+   
+   section{
+   background-color: rgb(20, 9, 17);
+   width: 70%;
+   
+   }
+   
+   aside{
+    background-color: rgb(94, 18, 62);
+
+    width: 15%;
+   }
+
+   footer{
+   background-color: rgb(129, 43, 111);
+   clear:left;  /*no afecte la flotacion */
+   height: 200px;
+   
+   }
+   
+   nav,section,aside{
+   float: left;
+   height: 640px;
+}
+
+ /* body{
+    color:rgb(255, 255, 255);
+ } */
+
+
+   
+  
+   

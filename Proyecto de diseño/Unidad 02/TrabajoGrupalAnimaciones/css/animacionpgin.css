@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #d0b8a8;
+}
+
+.comun{
+    position: fixed;
+    width: 100%;
+
+}
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    background: #f8ede3;
+    float:top;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    background: #dfd3c3;
+    float: top;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.instragram{
+    position: absolute;
+    top:12px;
+    left: 20px;
+}
+.facebook{
+    position: absolute;
+    top:8px;
+    left: 80px;
+}
+
+.twitter{
+    position: absolute;
+    top:15px;
+    left: 130px;
+}
+
+.corazon{
+    position: absolute;
+    top:0px;
+    right: 130px;
+}
+.carrito{
+    position: absolute;
+    top:7px;
+    right: 80px;
+}
+
+.cuenta{
+    position: absolute;
+    top:9px;
+    right: 30px;
+}
+
+.logo {
+    margin-left: 45%;
+    
+}
+
+.logo a {
+    text-decoration:double;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display:flexbox;
+    padding: 50px 50px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.navbar a:hover {
+    background: #dfd3c3;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 60vh !important;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    padding: 0 100px;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction:column;
+    
+}
+
+.sau {
+    padding: 30px;
+    background-color: #d0b8a8;
+}
+
+.box-container {
+    display:flex;
+    justify-content: center;
+
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #7d6e83;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem #7d6e83;
+    margin: 2rem;   
+}
+
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #000000;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background-color: #d0b8a8;
+}
+
+.contact {
+    background: #7d6e83;
+    clear: both;
+    
+}
+.informacion{
+    width: 10%;
+    color: white;
+     text-align: left;
+     margin-left: 20px;
+     top: 5px;
+
+}
+
+.servicio{
+    text-align:left;
+    color: white;
+    text-align: justify ;
+    text-align: left;
+    margin-left:25%;
+}
+
+
+.medio{
+    text-align:left;
+    color: white;
+    text-align: left;
+    margin-left:50%;
+    
+
+
+}
+
+
+.libro{
+    text-align:left;
+    color: white;
+    text-align: left;
+    margin-left:80%;
+    
+}
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+}
+
+#tabla01{
+    position: absolute;
+    width: 300px;
+    border: 1px solid transparent;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 600px;
+    color: white;
+}
+
+#tabla02{
+    position: absolute;
+    width: 300px;
+    border: 1px solid transparent;
+    padding: 5px;
+    margin-top: 100px;
+    margin-right: 450px;
+    color: white;
+}
+
+#tabla03{
+    position: absolute;
+    width: 300px;
+    border: 1px solid transparent;
+    padding: 5px;
+    margin-top: 80px;
+    margin-left: 600px;
+    color: white;
+}
+.box2{
+    position: relative;
+    top: 0px;
+    right: 250px;
+    background-color: #d0b8a8;
+    z-index: 3;
+}
+
+.box1{
+    position: relative;
+    top: 0px;
+    left: 300px;
+    background-color: #d0b8a8;
+    z-index: 3;
+}
+
+.th{
+     text-align: center;
+}
+.td{
+    text-align:justify;
+}
+
+.box1 {
+    animation-name:tinRightIn;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+}
+
+.box2 {
+    animation-name:tinLeftIn;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+}
+
+.boxx {
+    animation-name:swashIn;
+    animation-duration:3s;
+    animation-iteration-count: 1;
+}
+.swashIn {
+    -webkit-animation-name: swashIn;
+    animation-name: swashIn;
+  }
+  @-webkit-keyframes swashIn {
+    0% {
+      opacity: 0;
+      -webkit-transform-origin: 50% 50%;
+      transform-origin: 50% 50%;
+      -webkit-transform: scale(0, 0);
+      transform: scale(0, 0);
+    }
+  
+    90% {
+      opacity: 1;
+      -webkit-transform-origin: 50% 50%;
+      transform-origin: 50% 50%;
+      -webkit-transform: scale(0.9, 0.9);
+      transform: scale(0.9, 0.9);
+    }
+  
+    100% {
+      opacity: 1;
+      -webkit-transform-origin: 50% 50%;
+      transform-origin: 50% 50%;
+      -webkit-transform: scale(1, 1);
+      transform: scale(1, 1);
+    }
+  }
+  @keyframes swashIn {
+    0% {
+      opacity: 0;
+      -webkit-transform-origin: 50% 50%;
+      transform-origin: 50% 50%;
+      -webkit-transform: scale(0, 0);
+      transform: scale(0, 0);
+    }
+  
+    90% {
+      opacity: 1;
+      -webkit-transform-origin: 50% 50%;
+      transform-origin: 50% 50%;
+      -webkit-transform: scale(0.9, 0.9);
+      transform: scale(0.9, 0.9);
+    }
+  
+    100% {
+      opacity: 1;
+      -webkit-transform-origin: 50% 50%;
+      transform-origin: 50% 50%;
+      -webkit-transform: scale(1, 1);
+      transform: scale(1, 1);
+    }
+  }
+  
+.tinRightIn {
+    -webkit-animation-name: tinRightIn;
+    animation-name: tinRightIn;
+  }
+  @-webkit-keyframes tinRightIn {
+    0% {
+      opacity: 0;
+      -webkit-transform: scale(1, 1) translateX(900%);
+      transform: scale(1, 1) translateX(900%);
+    }
+  
+    50%,
+    70%,
+    90% {
+      opacity: 1;
+      -webkit-transform: scale(1.1, 1.1) translateX(0);
+      transform: scale(1.1, 1.1) translateX(0);
+    }
+  
+    60%,
+    80%,
+    100% {
+      opacity: 1;
+      -webkit-transform: scale(1, 1) translateX(0);
+      transform: scale(1, 1) translateX(0);
+    }
+  }
+  @keyframes tinRightIn {
+    0% {
+      opacity: 0;
+      -webkit-transform: scale(1, 1) translateX(900%);
+      transform: scale(1, 1) translateX(900%);
+    }
+  
+    50%,
+    70%,
+    90% {
+      opacity: 1;
+      -webkit-transform: scale(1.1, 1.1) translateX(0);
+      transform: scale(1.1, 1.1) translateX(0);
+    }
+  
+    60%,
+    80%,
+    100% {
+      opacity: 1;
+      -webkit-transform: scale(1, 1) translateX(0);
+      transform: scale(1, 1) translateX(0);
+    }
+  }
+
+.tinLeftIn {
+    -webkit-animation-name: tinLeftIn;
+    animation-name: tinLeftIn;
+  }
+  @-webkit-keyframes tinLeftIn {
+    0% {
+      opacity: 0;
+      -webkit-transform: scale(1, 1) translateX(-900%);
+      transform: scale(1, 1) translateX(-900%);
+    }
+  
+    50%,
+    90% {
+      opacity: 1;
+      -webkit-transform: scale(1.1, 1.1) translateX(0);
+      transform: scale(1.1, 1.1) translateX(0);
+    }
+  
+    60%,
+    100% {
+      opacity: 1;
+      -webkit-transform: scale(1, 1) translateX(0);
+      transform: scale(1, 1) translateX(0);
+    }
+  }
+  @keyframes tinLeftIn {
+    0% {
+      opacity: 0;
+      -webkit-transform: scale(1, 1) translateX(-900%);
+      transform: scale(1, 1) translateX(-900%);
+    }
+  
+    50%,
+    90% {
+      opacity: 1;
+      -webkit-transform: scale(1.1, 1.1) translateX(0);
+      transform: scale(1.1, 1.1) translateX(0);
+    }
+  
+    60%,
+    100% {
+      opacity: 1;
+      -webkit-transform: scale(1, 1) translateX(0);
+      transform: scale(1, 1) translateX(0);
+    }
+  }

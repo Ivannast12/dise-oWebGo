@@ -1,0 +1,19 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/f6/f7/d6/f6f7d6eb5c27a4b7cceebedf7fccff2a.jpg);
+    margin-top: 40px;
+    font-family: 'Lucida Sans Unicode';
+}
+
+#boton-vaciar{
+    background-color: black;
+    border-color: black;
+    font-size:larger;
+}
+
+h2{
+    color: rgb(133, 96, 130);
+    font-family:'Open Sans';
+}
+
+
+

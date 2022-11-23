@@ -1,0 +1,19 @@
+#contenedor{
+    background-color: rgb(215, 238, 250);
+    color: rgb(113, 113, 206);
+}
+
+.conteiner{
+    background-color: rgb(247, 235, 246);
+  
+}
+
+.col-6 {
+    border:1px solid rgb(200, 48, 119);
+    padding: 10px;
+}
+
+.col-md-8{
+    border:1px solid rgb(200, 48, 119);
+    padding: 10px;
+}
